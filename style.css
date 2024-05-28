@@ -1,0 +1,236 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-pink-memphis-playful-portfolio-image_593421.jpg) ;
+    transition: background-color 35s ease;
+    background: rgb(215,215,223);
+    background: linear-gradient(90deg, rgba(215,215,223,1) 17%, rgba(237,237,237,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat:no-repeat;
+    background-size:auto;
+}
+
+header {
+    background-image:url(https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-pink-memphis-playful-portfolio-image_593421.jpg);
+    padding: 20px;
+    text-align: center;
+    transition: background-color 35s ease;
+    background: rgb(215,215,223);
+    background: linear-gradient(90deg, rgba(215,215,223,1) 17%, rgba(237,237,237,1) 35%, rgba(0,212,255,1) 100%);
+    background-repeat:no-repeat;
+    background-size:auto;
+
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+
+#education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#education th, #education td {
+    border: 1px solid #f4f4f4;
+    padding: 10px;
+    text-align: left;
+}
+
+#education th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+#education tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+#education tr:hover {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+p {
+    font-size: 1.1em;
+    margin-top: 0;
+    transition: color 0.3s ease;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    transition: border-color 0.3s ease;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.profile-img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#skills li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+#skills li img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    transition: transform 0.3s ease;
+}
+
+#skills li:hover {
+    transform: scale(1.05);
+}
+
+#projects .project {
+    margin-bottom: 20px;
+}
+
+#projects .project h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+#projects .project p {
+    margin: 5px 0 10px 0;
+    transition: color 0.3s ease;
+}
+
+#projects .project a {
+    color: #0073e6;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#projects .project a:hover {
+    text-decoration: underline;
+    color: #005bb5;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: #ddd;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin: 0 0 20px 0;
+    }
+
+    footer ul {
+        flex-direction: column;
+    }
+
+    footer ul li {
+        margin: 5px 0;
+    }
+}
